@@ -39,7 +39,6 @@ public class CommandServer : MonoBehaviour
 	// 
 	void onManual(SocketIOEvent obj)
 	{
-		//Debug.Log("CommandServer: Manual");
 		EmitTelemetry (obj);
 	}
 	
