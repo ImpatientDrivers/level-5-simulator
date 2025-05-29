@@ -589,6 +589,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000011874370104, guid: 1f347eea738f54024b45de3f0811b76a, type: 3}
+      propertyPath: pingInterval
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011874370104, guid: 1f347eea738f54024b45de3f0811b76a, type: 3}
+      propertyPath: reconnectDelay
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f347eea738f54024b45de3f0811b76a, type: 3}
 --- !u!4 &391417780 stripped
@@ -1192,7 +1200,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 52c9083b299dfa3479caa56bb9f0a98c, type: 2}
+  - {fileID: 2100000, guid: edf9463c8722a2e4591dfc03a81dcf14, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1842,19 +1850,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000014282207764, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 2.139
       objectReference: {fileID: 0}
     - target: {fileID: 4000014282207764, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.5
+      value: 0.868
       objectReference: {fileID: 0}
     - target: {fileID: 4000014282207764, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9902681
+      value: 0.9816273
       objectReference: {fileID: 0}
     - target: {fileID: 4000014282207764, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.13917309
+      value: 0.19080894
       objectReference: {fileID: 0}
     - target: {fileID: 4000014282207764, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1866,7 +1874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000014282207764, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 16
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 4000014282207764, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1878,7 +1886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 20000013889425058, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: field of view
-      value: 103
+      value: 96
       objectReference: {fileID: 0}
     - target: {fileID: 20000013889425058, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_FOVAxisMode
@@ -1902,7 +1910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 81000012509462514, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114000010086857284, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
